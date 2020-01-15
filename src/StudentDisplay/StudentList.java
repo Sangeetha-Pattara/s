@@ -27,9 +27,9 @@ public class StudentList {
             System.out.println("Enter id");
             s[i].setId(scan.nextInt());
             System.out.println("Enter names");
-            s[i].setName(scan.nextLine());
+            s[i].setName(scan.next());
             System.out.println("Enter Address");
-            s[i].setAddress(scan.nextLine());
+            s[i].setAddress(scan.next());
         }
          System.out.println("The student names: ");
          for(int i=0;i<s.length;i++)
